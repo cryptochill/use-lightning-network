@@ -1,0 +1,15 @@
+{
+  "name": "use-ligtning",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2",
+    "vite": "^2.0.0-beta.12"
+  }
+}
