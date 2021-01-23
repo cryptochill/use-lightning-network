@@ -14,11 +14,7 @@
       <nav class="relative flex items-center justify-between sm:h-10 md:justify-center">
         <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
           <div class="flex items-center justify-between w-full md:w-auto text-yellow-500">
-            <svg class="h-10 w-auto header-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                 x="0px" y="0px"
-                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512; display: none" fill="currentColor"
-                 xml:space="preserve"><g><g><path d="M400.268,175.599c-1.399-3.004-4.412-4.932-7.731-4.932h-101.12l99.797-157.568c1.664-2.628,1.766-5.956,0.265-8.678 C389.977,1.69,387.109,0,384.003,0H247.47c-3.234,0-6.187,1.826-7.637,4.719l-128,256c-1.323,2.637-1.178,5.777,0.375,8.294 c1.562,2.517,4.301,4.053,7.262,4.053h87.748l-95.616,227.089c-1.63,3.883-0.179,8.388,3.413,10.59 c1.382,0.845,2.918,1.254,4.446,1.254c2.449,0,4.864-1.05,6.537-3.029l273.067-324.267 C401.206,182.161,401.667,178.611,400.268,175.599z"/></g></g>
-            </svg>
+            <svg class="h-10 w-auto hide-initially" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" style="display: none"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
           </div>
         </div>
 
@@ -57,7 +53,7 @@
     </div>
 
     <div class="bg-white">
-      <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+      <div class="max-w-6xl mx-auto pt-12 px-4 sm:px-6 lg:pt-24 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
         <div>
           <p class="mt-2 text-3xl font-extrabold text-gray-900">Custodial Wallets</p>
           <p class="mt-4 text-lg text-gray-600">When using custodial wallets, the wallet company has the ownership of your keys, which means you have to trust them not to run away with your money.
@@ -66,8 +62,134 @@
           </p>
 
         </div>
-        <div class="mt-12 lg:mt-0 lg:col-span-2">
-          ...
+        <div class="mt-12 lg:mt-14">
+          <dl class="space-y-10">
+            <div class="flex">
+              <svg class="flex-shrink-0 h-6 w-auto hide-initially text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                   fill="currentColor" style="display: none">
+                <path fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"/>
+              </svg>
+              <div class="ml-3">
+                <dt class="text-lg leading-6 font-medium text-gray-900 font-semibold">
+                  <a href="https://bluewallet.io/" target="_blank" class="text-indigo-600 hover:text-indigo-900">Blue Wallet</a>
+                </dt>
+                <dd class="mt-2 text-base text-gray-500">
+                  Open source Bitcoin and Lightning wallet for iOS, Android and Desktop.
+                </dd>
+              </div>
+            </div>
+
+            <div class="flex">
+              <svg class="flex-shrink-0 h-6 w-auto hide-initially text-yellow-500" xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 20 20"
+                   fill="currentColor" style="display: none">
+                <path fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"/>
+              </svg>
+              <div class="ml-3">
+                <dt class="text-lg leading-6 font-medium text-gray-900 font-semibold">
+                  <a href="https://www.walletofsatoshi.com/" target="_blank"
+                     class="text-indigo-600 hover:text-indigo-900">Wallet of Satoshi</a>
+                </dt>
+                <dd class="mt-2 text-base text-gray-500">
+                  Bitcoin and Lightning wallet for iOS and Android.
+                </dd>
+              </div>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+        <div>
+          <p class="mt-2 text-3xl font-extrabold text-gray-900">Non-Custodial Wallets</p>
+          <p class="mt-4 text-lg text-gray-600">Non-custodial wallets allow the user to take full ownership of his/her bitcoins.
+            <br/><br/>Non-custodial wallets has either built-in/running Lightning node or it require to connect to a remote node which in both cases require more advanced skills.
+          </p>
+
+        </div>
+        <div class="mt-12 lg:mt-16 lg:col-span-2">
+          <dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-flow-row sm:gap-x-6 sm:gap-y-8">
+
+            <div class="flex">
+              <svg class="flex-shrink-0 h-6 w-auto hide-initially text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                   fill="currentColor" style="display: none">
+                <path fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"/>
+              </svg>
+              <div class="ml-3">
+                <dt class="text-lg leading-6 font-medium text-gray-900 font-semibold">
+                  <a href="https://zaphq.io/" target="_blank" class="text-indigo-600 hover:text-indigo-900">Zap</a>
+                </dt>
+                <dd class="mt-2 text-base text-gray-500">
+                  Lightning wallet for iOS, Android and Desktop.
+                </dd>
+              </div>
+            </div>
+
+            <div class="flex">
+              <svg class="flex-shrink-0 h-6 w-auto hide-initially text-yellow-500" xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 20 20"
+                   fill="currentColor" style="display: none">
+                <path fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"/>
+              </svg>
+              <div class="ml-3">
+                <dt class="text-lg leading-6 font-medium text-gray-900 font-semibold">
+                  <a href="https://phoenix.acinq.co/" target="_blank"
+                     class="text-indigo-600 hover:text-indigo-900">Phoenix</a>
+                </dt>
+                <dd class="mt-2 text-base text-gray-500">
+                  Lightning wallet for Android.
+                </dd>
+              </div>
+            </div>
+
+            <div class="flex">
+              <svg class="flex-shrink-0 h-6 w-auto hide-initially text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                   fill="currentColor" style="display: none">
+                <path fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"/>
+              </svg>
+              <div class="ml-3">
+                <dt class="text-lg leading-6 font-medium text-gray-900 font-semibold">
+                  <a href="https://breez.technology/" target="_blank" class="text-indigo-600 hover:text-indigo-900">Breez</a>
+                </dt>
+                <dd class="mt-2 text-base text-gray-500">
+                  Lightning wallet for iOS and Android.
+                </dd>
+              </div>
+            </div>
+
+            <div class="flex">
+              <svg class="flex-shrink-0 h-6 w-auto hide-initially text-yellow-500" xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 20 20"
+                   fill="currentColor" style="display: none">
+                <path fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"/>
+              </svg>
+              <div class="ml-3">
+                <dt class="text-lg leading-6 font-medium text-gray-900 font-semibold">
+                  <a href="https://muun.com/" target="_blank"
+                     class="text-indigo-600 hover:text-indigo-900">Muun</a>
+                </dt>
+                <dd class="mt-2 text-base text-gray-500">
+                  Lightning wallet for iOS and Android.
+                </dd>
+              </div>
+            </div>
+
+
+          </dl>
         </div>
       </div>
     </div>
@@ -80,14 +202,14 @@
     <div class="border-t border-gray-200"></div>
     <div class="py-12 md:flex md:items-center md:justify-between">
     <div class="flex justify-center space-x-6 md:order-2">
-      <a href="https://github.com/cryptochill/use-lightning-network" class="text-base text-gray-500 hover:text-gray-900" target="_blank">
+      <a href="https://github.com/cryptochill/use-lightning-network" class="text-base text-indigo-600 hover:text-gray-900" target="_blank">
         Contribute to this page on Github.
       </a>
     </div>
     <div class="mt-8 md:mt-0 md:order-1">
-      <p class="text-base text-gray-400">
-        This website is made as a simple guide to help new users to on-board Lightning Network. <br/>
-        Feel free to link to it as a Help resource.
+      <p class="text-base text-gray-500">
+        This site is made as a simple guide to help new users to on-board Lightning Network. <br/>
+        Feel free to link to this website as a Help resource.
       </p>
     </div>
     </div>
