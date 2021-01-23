@@ -1,4 +1,4 @@
-# Use Lightning network
+# Use Lightning Network
 
 Repository of https://uselightning.network website
 
